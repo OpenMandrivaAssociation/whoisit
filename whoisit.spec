@@ -12,7 +12,6 @@ Requires:	asterisk
 Requires:	festival
 BuildRequires:	sox
 BuildRequires:	festival
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 This program is intended to be used in the Asterisk
