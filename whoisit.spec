@@ -3,7 +3,7 @@
 Summary:	Facilities to Announce incoming callers over the computer speakers 
 Name:		whoisit
 Version:	1.1
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPL
 Group:		System/Servers
 URL:		http://www.voip-info.org/wiki-Asterisk+WhoIsIt
@@ -12,7 +12,7 @@ Requires:	asterisk
 Requires:	festival
 BuildRequires:	sox
 BuildRequires:	festival
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This program is intended to be used in the Asterisk
