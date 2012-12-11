@@ -68,3 +68,37 @@ festival < countrycodes-script.tmp
 %attr(0644,root,root) %{_localstatedir}/lib/asterisk/sounds/CID-PLACES/*.gsm
 %attr(0644,root,root) %{_localstatedir}/lib/asterisk/sounds/CID-PLACES/country-codes/*.gsm
 %attr(0644,root,root) %{_localstatedir}/lib/asterisk/sounds/*.gsm
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.1-5mdv2010.0
++ Revision: 434751
+- rebuild
+
+* Sun Jul 20 2008 Oden Eriksson <oeriksson@mandriva.com> 1.1-4mdv2009.0
++ Revision: 238936
+- rebuild
+
+  + Pixel <pixel@mandriva.com>
+    - adapt to %%_localstatedir now being /var instead of /var/lib (#22312)
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Aug 19 2007 Oden Eriksson <oeriksson@mandriva.com> 1.1-3mdv2008.0
++ Revision: 66692
+- Import whoisit
+
+
+
+* Mon Jun 26 2006 Oden Eriksson <oeriksson@mandriva.com> 1.1-1mdv2007.0
+- rebuild
+
+* Fri Apr 22 2005 Oden Eriksson <oeriksson@mandriva.com> 1.1-2mdk
+- fix deps
+
+* Fri Apr 22 2005 Oden Eriksson <oeriksson@mandriva.com> 1.1-1mdk
+- initial mandriva package
