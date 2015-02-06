@@ -3,7 +3,7 @@
 Summary:	Facilities to Announce incoming callers over the computer speakers 
 Name:		whoisit
 Version:	1.1
-Release:	%mkrel 5
+Release:	6
 License:	GPL
 Group:		System/Servers
 URL:		http://www.voip-info.org/wiki-Asterisk+WhoIsIt
