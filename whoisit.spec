@@ -6,7 +6,7 @@ Version:	1.1
 Release:	6
 License:	GPL
 Group:		System/Servers
-URL:		http://www.voip-info.org/wiki-Asterisk+WhoIsIt
+URL:		https://www.voip-info.org/wiki-Asterisk+WhoIsIt
 Source0:	http://wyoming.e-tools.com/WhoIsIt-%{version}.tar.bz2
 Requires:	asterisk
 Requires:	festival
